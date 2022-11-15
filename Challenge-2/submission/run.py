@@ -13,6 +13,8 @@ def main():
     # read and load a test set from stdin
     test_set_path = input()
     x_test = np.load(test_set_path)
+    x_test = x_test['data']
+
 
     # run model on the test set
     y_preds = model.predict(x_test, verbose=0)

@@ -1,0 +1,4 @@
+competition: uclais-2
+environment: cpu
+language: python
+entrypoint: run.py
